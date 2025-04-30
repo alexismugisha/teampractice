@@ -14,13 +14,14 @@ form{
     width: 300px;
     
 }
-
+*{
+    padding: 0px;
+}
 h3{
     color: white;
 }
 body{
-    background: rgb(62, 62, 71);
-    padding-top: 150px;
+    background: rgb(62, 62, 71)
 }
 .input{
     border: 1px solid blue;
@@ -44,11 +45,11 @@ body{
     <center>
 <form action="">
     <h3><u>Contacts</u></h3>
-     @csrf
+
     <input type="text" name="fullname" placeholder="Enter your names" class="input"><br><br>
     <input type="email" name="email" placeholder="Enter your email " class="input"><br><br>
     <input type="number" name="phone" placeholder="Enter your phone number" class="input"><br><br>
-    <input type="submit" class="sub" value="send">
+    <input type="submit" class="sub">
 </form>
 <center>
 </body>
