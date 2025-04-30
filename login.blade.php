@@ -16,8 +16,7 @@ h3{
     color: white;
 }
 body{
-    background: rgb(62, 62, 71);
-    padding-top: 150px;
+    background: rgb(62, 62, 71)
 }
 .input{
     border: 1px solid blue;
@@ -44,7 +43,7 @@ body{
     <h3><u>Login here</u></h3>
     <input type="email" name="email" placeholder="Enter your email " class="input"><br><br>
     <input type="password" name="password" placeholder="password" class="input"><br><br>
-    <input type="submit" class="sub" value="login">
+    <input type="submit" class="sub">
 </form>
 <center>
 </body>
