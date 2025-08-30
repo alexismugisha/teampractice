@@ -16,8 +16,7 @@ h3{
     color: white;
 }
 body{
-    background: rgb(62, 62, 71);
-    padding-top: 150px;
+    background: rgb(62, 62, 71)
 }
 .input{
     border: 1px solid blue;
@@ -43,9 +42,9 @@ a{
 </head>
 <body>
     <center>
-<form action="/register" method="POST">
+<form action="">
     <h3><u>Registration Form</u></h3>
-     @csrf
+
     <input type="text" name="fullname" placeholder="Enter your names" class="input"><br><br>
     <input type="email" name="email" placeholder="Enter your email " class="input"><br><br>
     <input type="password" name="password" placeholder="password" class="input"><br><br>
